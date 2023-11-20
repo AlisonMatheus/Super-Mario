@@ -1,0 +1,32 @@
+@media screen and (max-width: 1440px) {
+    header img {
+        margin-left: 15px;
+    }
+    .navigation_social {
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    main {
+        flex: 1;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 80%;
+        height: auto;
+    }
+
+    .main_info img {
+        width: 180px;
+    }
+
+    .main_info p {
+        font-size: 16px;
+    }
+
+    main .mario_luigi{
+        width: 400px;
+    }
+}
