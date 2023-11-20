@@ -198,3 +198,19 @@ main {
     background: transparent;
     border: 1px solid var(--green);
 }
+
+#copyright {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    text-align: center;
+    color: white;
+
+    bottom: 0;
+    position: fixed;
+}
+
+#copyright a {
+    color: var(--red);
+    text-decoration: none;
+}
